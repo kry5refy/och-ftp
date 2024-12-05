@@ -1,0 +1,7 @@
+Instrukcja rutera WRT300N
+
+Plik .pka (packet tracer) - Po³¹czenie siê routerem bezprzewodowym i podstawowe ustawienia.pka (instr1.docx)
+
+Plik .pka (packet tracer) - Bezprzewodowe pod³¹czanie komputerów do Linksys WRT300N.pka (instr2.docx)
+
+Plik .pka (packet tracer) - Sprawdzenie po³¹czenia bezprzewodowego.pka(instr3.docx)

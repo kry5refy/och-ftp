@@ -1,0 +1,5 @@
+Procedura tworzenia domenowego konta u¿ytkownika za pomocš wiersza polecenia.
+Dodaj domenowe konta u¿ytkowników w wierszu polecenia wpisz jak poni¿ej.
+dsadd user "cn=Adam AK. Kowal,CN=Users,DC=rol00,DC=edu,DC=pl" -upn akowal@rol00.edu.pl -fn Adam -ln Kowal -display "Adam AK. Kowal" -mi AK -pwd 9zNdMgg -mustchpwd yes
+dsadd user "CN=madamski,CN=Users,DC=rol00,DC=edu,DC=pl" -upn mdaleki@rol00.edu.pl -fn Micha³ -ln Adamski -display madamski -pwd 9zNdMgg -mustchpwd yes
+

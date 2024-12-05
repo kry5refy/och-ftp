@@ -1,0 +1,33 @@
+
+#This is the network config written by 'subiquity'
+network:
+  version: 2
+  ethernets:
+    enp0s3:
+      dhcp4: false
+      addresses:
+       - 192.168.100.1/24
+      routes:
+      - to: default
+        via: 192.168.100.1
+      nameservers:
+        addresses: [192.168.100.1]
+
+
+
+# Let NetworkManager manage all devices on this system
+  network:
+    version: 2
+    ethernets:
+        eth0:
+            dhcp4: true
+            match:
+                macaddress: fc:15:b4:bn:34:g5
+            set-name: eth0
+        wlan0:
+            dhcp4: true
+            match:
+                macaddress: 00:22:34:f4:d3:45
+            set-name: wlan0
+
+
